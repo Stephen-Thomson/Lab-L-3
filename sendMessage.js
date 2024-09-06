@@ -14,9 +14,11 @@ const tokenator = new Tokenator({
 const sendMessage = async () => {
   try {
     const messageContent = {
-      recipient: myIdentityKey, // Sending a message to myself
+      //recipient: myIdentityKey, // Sending a message to myself
+      recipient: externalRecipientKey, // Sending a message to an external recipient
       messageBox: 'L3_inbox',
-      body: 'This is a test message!'
+      //body: 'This is a test message!'
+      body: 'Lab L3 has been completed by Stephen Thomson'
     };
 
     const result = await tokenator.sendMessage(messageContent);
