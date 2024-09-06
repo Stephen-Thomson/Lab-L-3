@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@babbage/sdk-ts": "^0.2.51",
+    "@babbage/tokenator": "^0.2.35"
+  }
+}
